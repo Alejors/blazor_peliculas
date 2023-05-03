@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = BlazorPeliculas.Client
+build_property.RootNamespace = BlazorPeliculas.Client
+build_property.ProjectDir = /home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Actores/CrearActor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWN0b3Jlcy9DcmVhckFjdG9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Actores/EditarActor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWN0b3Jlcy9FZGl0YXJBY3Rvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Actores/IndiceActores.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWN0b3Jlcy9JbmRpY2VBY3RvcmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Genero/CrearGenero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2VuZXJvL0NyZWFyR2VuZXJvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Genero/EditarGenero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2VuZXJvL0VkaXRhckdlbmVyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Genero/IndiceGenero.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2VuZXJvL0luZGljZUdlbmVyby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Peliculas/CrearPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVsaWN1bGFzL0NyZWFyUGVsaWN1bGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Peliculas/EditarPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVsaWN1bGFzL0VkaXRhclBlbGljdWxhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Pages/Peliculas/VisualizarPelicula.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVsaWN1bGFzL1Zpc3VhbGl6YXJQZWxpY3VsYS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/EjemploTextbox.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0VqZW1wbG9UZXh0Ym94LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/ListadoGenerico.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xpc3RhZG9HZW5lcmljby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/ListadoPeliculas.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0xpc3RhZG9QZWxpY3VsYXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/PeliculaIndividual.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1BlbGljdWxhSW5kaXZpZHVhbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ogekb5k8qc
+
+[/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-aypf5qjcyo

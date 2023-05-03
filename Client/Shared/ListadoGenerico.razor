@@ -1,0 +1,38 @@
+@typeparam Titem
+
+@if (Listado is null)
+{
+<img 
+src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" 
+alt="cargando"/>
+}
+else if (Listado.Count == 0)
+{
+    @if(NoHayRegistros is null)
+    {
+        <p>No hay películas para mostrar</p>
+    }
+    else
+    {
+        @NoHayRegistros
+    }
+}
+else
+{
+    @foreach (var elemento in Listado)
+    {
+        @HayRegistros(elemento)
+    }
+}
+
+@code{
+    [Parameter]
+    public RenderFragment Cargando {get; set;} = null!;
+    [Parameter]
+    public RenderFragment NoHayRegistros {get; set; } = null!;
+    [Parameter]
+    public RenderFragment<Titem> HayRegistros {get; set; } = null!;
+    [Parameter]
+    [EditorRequired]
+    public List<Titem> Listado {get; set;} = null!;
+}

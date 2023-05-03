@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xt+Z8a/IxVZa/vdLE9Nighc0iWDhf/3R66WH9n8qA3wulGgzHaBAVOKFNERuuVBGMlo/ghd0cCLvtUbmZnxjJg==",
+  "success": true,
+  "projectFilePath": "/home/alejo/Documentos/Programación/Blazor/BlazorPeliculas/Otro/ejemplo.fsproj",
+  "expectedPackageFiles": [
+    "/home/alejo/.nuget/packages/fsharp.core/7.0.0/fsharp.core.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
