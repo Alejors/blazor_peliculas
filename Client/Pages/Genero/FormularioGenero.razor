@@ -1,0 +1,62 @@
+@inject IJSRuntime js;
+
+<NavigationLock OnBeforeInternalNavigation="OnBeforeInternalNavigation">
+
+</NavigationLock>
+<EditForm EditContext="editContext" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="mb-3">
+        <label>Nombre:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Genero.Nombre" />
+            <ValidationMessage For="@(() => Genero.Nombre)" />
+        </div>
+    </div>
+
+    <button class="btn btn-success" type="submit">Guardar Cambios</button>
+</EditForm>
+
+@code {
+    private EditContext editContext = null!;
+    public bool posted { get; set; } = false;
+
+    protected override void OnInitialized()
+    {
+        editContext = new(Genero);
+    }
+
+    [EditorRequired]
+    [Parameter]
+    public Genero Genero { get; set; } = null!;
+
+    [EditorRequired]
+    [Parameter]
+    public EventCallback OnValidSubmit { get; set; }
+    private async Task OnBeforeInternalNavigation(LocationChangingContext context)
+    {
+        var formularioFueEditado = editContext.IsModified();
+        if(!formularioFueEditado)
+        {
+            return;
+        }
+        else
+        {
+            Console.WriteLine("Formulario Editado");
+        }
+        if(posted)
+        {
+            return;
+        }
+        else
+        {
+            Console.WriteLine("Nada posteado");
+        }
+        var confirmado = await js.Confirm("¿Deseas abandonar y perder los cambios?");
+        if(confirmado)
+        {
+            return;
+        }
+        
+        context.PreventNavigation();
+    }   
+}
