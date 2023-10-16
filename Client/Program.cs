@@ -1,5 +1,6 @@
 using BlazorPeliculas.Client;
 using BlazorPeliculas.Client.Repositorios;
+using CurrieTechnologies.Razor.SweetAlert2;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -14,5 +15,6 @@ await builder.Build().RunAsync();
 
 void ConfigureServices(IServiceCollection services)
 {
-    services.AddSingleton<IRepositorio, Repositorio>();    
+    services.AddSweetAlert2();
+    services.AddScoped<IRepositorio, Repositorio>();
 }

@@ -1,4 +1,4 @@
-@inject IJSRuntime js;
+@inject SweetAlertService swal
 
 <NavigationLock OnBeforeInternalNavigation="OnBeforeInternalNavigation">
 
@@ -51,7 +51,16 @@
         {
             Console.WriteLine("Nada posteado");
         }
-        var confirmado = await js.Confirm("¿Deseas abandonar y perder los cambios?");
+
+        var resultado = await swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "Confirmacion",
+                Text = "¿Deseas abandonar y perder los cambios?",
+                Icon = SweetAlertIcon.Warning,
+                ShowCancelButton = true
+            });
+
+        var confirmado = !string.IsNullOrEmpty(resultado.Value);
         if(confirmado)
         {
             return;
